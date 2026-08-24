@@ -9,7 +9,6 @@
 -- 1. DATABASE & TABLE CREATION
 
 CREATE DATABASE VEEVA_SQL_PRACTICE;
-
 USE VEEVA_SQL_PRACTICE;
 
 CREATE TABLE employees (
@@ -32,30 +31,18 @@ INSERT INTO employees
 (emp_id, emp_name, age, gender, salary, department,
  city, joining_date, email, manager_id)
 VALUES
-(101, 'Rahul', 24, 'Male', 45000, 'IT',
- 'Hyderabad', '2023-06-15', 'rahul@gmail.com', 105),
-(102, 'Priya', 27, 'Female', 60000, 'HR',
- 'Chennai', '2022-04-10', 'priya@gmail.com', 106),
-(103, 'Arjun', 29, 'Male', 75000, 'IT',
- 'Hyderabad', '2021-08-20', 'arjun@gmail.com', 105),
-(104, 'Sneha', 25, 'Female', 50000, 'Finance',
- 'Bangalore', '2023-01-12', 'sneha@gmail.com', 107),
-(105, 'Kiran', 35, 'Male', 95000, 'IT',
- 'Hyderabad', '2018-03-05', 'kiran@gmail.com', NULL),
-(106, 'Anjali', 32, 'Female', 85000, 'HR',
- 'Chennai', '2019-07-18', 'anjali@gmail.com', NULL),
-(107, 'Vikram', 38, 'Male', 100000, 'Finance',
- 'Bangalore', '2017-11-25', 'vikram@gmail.com', NULL),
-(108, 'Neha', 23, 'Female', 40000, 'Sales',
- 'Mumbai', '2024-02-01', 'neha@gmail.com', 109),
-(109, 'Ravi', 31, 'Male', 70000, 'Sales',
- 'Mumbai', '2020-09-14', 'ravi@gmail.com', NULL),
-(110, 'Meena', 26, 'Female', 55000, 'Marketing',
- 'Pune', '2022-12-10', 'meena@gmail.com', 111),
-(111, 'Suresh', 36, 'Male', 90000, 'Marketing',
- 'Pune', '2018-06-22', 'suresh@gmail.com', NULL),
-(112, 'Divya', 28, 'Female', 65000, 'IT',
- 'Hyderabad', '2021-05-17', NULL, 105);
+(101, 'Rahul', 24, 'Male', 45000, 'IT','Hyderabad', '2023-06-15', 'rahul@gmail.com', 105),
+(102, 'Priya', 27, 'Female', 60000, 'HR','Chennai', '2022-04-10', 'priya@gmail.com', 106),
+(103, 'Arjun', 29, 'Male', 75000, 'IT','Hyderabad', '2021-08-20', 'arjun@gmail.com', 105),
+(104, 'Sneha', 25, 'Female', 50000, 'Finance','Bangalore', '2023-01-12', 'sneha@gmail.com', 107),
+(105, 'Kiran', 35, 'Male', 95000, 'IT','Hyderabad', '2018-03-05', 'kiran@gmail.com', NULL),
+(106, 'Anjali', 32, 'Female', 85000, 'HR','Chennai', '2019-07-18', 'anjali@gmail.com', NULL),
+(107, 'Vikram', 38, 'Male', 100000, 'Finance','Bangalore', '2017-11-25', 'vikram@gmail.com', NULL),
+(108, 'Neha', 23, 'Female', 40000, 'Sales','Mumbai', '2024-02-01', 'neha@gmail.com', 109),
+(109, 'Ravi', 31, 'Male', 70000, 'Sales','Mumbai', '2020-09-14', 'ravi@gmail.com', NULL),
+(110, 'Meena', 26, 'Female', 55000, 'Marketing','Pune', '2022-12-10', 'meena@gmail.com', 111),
+(111, 'Suresh', 36, 'Male', 90000, 'Marketing','Pune', '2018-06-22', 'suresh@gmail.com', NULL),
+(112, 'Divya', 28, 'Female', 65000, 'IT','Hyderabad', '2021-05-17', NULL, 105);
 
 -- 3. SELECT
 -- Display all employees.
